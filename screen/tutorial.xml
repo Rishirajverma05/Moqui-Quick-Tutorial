@@ -4,5 +4,8 @@
         require-authentication="anonymous-all">
     <widgets>
         <label type="h1" text="Hello world!"/>
+        <render-mode>
+            <text type="html,vuet" location="component://tutorial/screen/hello.html"/>
+        </render-mode>
     </widgets>
 </screen>
