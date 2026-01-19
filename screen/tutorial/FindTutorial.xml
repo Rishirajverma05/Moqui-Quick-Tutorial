@@ -9,6 +9,10 @@
     <widgets>
         <form-list name="ListTutorials" list="tutorialList" header-dialog="true" skip-form="true">
             <auto-fields-entity entity-name="tutorial.Tutorial" field-type="find-display"/>
+            <field name="description">
+                <header-field show-order-by="true"><text-find hide-options="true"/></header-field>
+                <default-field><display/></default-field>
+            </field>
         </form-list>
     </widgets>
 </screen>
